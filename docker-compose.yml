@@ -1,0 +1,18 @@
+version: "3.5"
+
+services:
+  flexget:
+    container_name: flexget
+    image: grmontesino/flexget:${FG_TAG:-3.2.4}
+    restart: unless-stopped
+    user: ${FG_UID:-flexget}
+    networks:
+      - torrent
+    volumes:
+      - "./config:/flexget"
+    environment:
+      TZ: ${FG_TZ:-UTC}
+
+networks:
+  torrent:
+    name: torrent
