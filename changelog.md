@@ -1,6 +1,6 @@
 # Changelog
 
-## 3.2.18-i1
+## 3.2.18-i1 - 2022-02-06
 
 * New upstream release
 
