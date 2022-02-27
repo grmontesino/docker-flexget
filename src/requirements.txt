@@ -1,4 +1,4 @@
 setuptools
 transmission-rpc
 python-telegram-bot
-flexget == 3.2.18
+flexget == 3.3.1
