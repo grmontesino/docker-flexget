@@ -1,5 +1,7 @@
 # grmontesino/flexget container image
 
+![Docker CI](https://github.com/grmontesino/docker-flexget/actions/workflows/build.yml/badge.svg)
+
 Container image and sample docker compose file for flexget by Gustavo R. Montesino.
 
 "Flexget is a multipurpose automation tool for all of your media" - for details please see the official website: https://flexget.com/
